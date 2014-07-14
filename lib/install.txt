@@ -1,0 +1,2 @@
+mvn install:install-file -Dfile=weblaf-1.27.jar -DgroupId=com.weblookandfeel -DartifactId=weblaf -Dversion=1.27 -Dpackaging=jar
+

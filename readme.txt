@@ -1,0 +1,2 @@
+Desktop instagram client. It may scan the specified tag and download photos that appear to be commented or created due the particular timeframe. Received photos are placed at prepared template and sent to printer or saved.
+It just an attempt to learn Scala. I didn't succeed at functional style however.
