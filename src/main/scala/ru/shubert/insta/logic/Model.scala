@@ -54,7 +54,6 @@ object Model {
 
   def isNotEmpty(s: String) = (s != null) && (!s.trim.isEmpty)
 
-  //http://krasserm.blogspot.ru/2012/02/using-jaxb-for-xml-and-json-apis-in.html
   class ColorOptionXmlAdapter() extends XmlAdapter[String, Option[Color]] {
     override def unmarshal(v: String): Option[Color] = {
       isNotEmpty(v).option(Color.decode(v))
